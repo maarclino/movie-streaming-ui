@@ -1,0 +1,68 @@
+[
+    {
+        "titol": "Spider-Man: No Way Home",
+        "any": "2021",
+        "genere": "Superherois",
+        "poster": "img/spidermannowayhome.png",
+        "arxiu": "spidermannowayhome.mp4",
+        "seccio": "banner"
+    },
+    {
+        "titol": "Spider-Man 3",
+        "any": "2007",
+        "genere": "Superherois",
+        "poster": "img/spiderman3.png",
+        "arxiu": "spiderman3.mp4",
+        "seccio": "continua"
+    },
+    {
+        "titol": "Venjadors",
+        "any": "2012",
+        "genere": "Superherois",
+        "poster": "img/vengadores.jpeg",
+        "arxiu": "venjadors.mp4",
+        "seccio": "continua"
+    },
+    {
+        "titol": "El Diari De Noah",
+        "any": "2004",
+        "genere": "Romàntica",
+        "poster": "img/eldiariodenoah.png",
+        "seccio": "continua"
+    },
+    {
+        "titol": "Jerry Maguire",
+        "any": "1996",
+        "genere": "Drama",
+        "poster": "img/jerrymaguire.webp",
+        "seccio": "continua"
+    },
+    {
+        "titol": "Spider-Man 2",
+        "any": "2004",
+        "genere": "Superherois",
+        "poster": "img/spiderman2.png",
+        "seccio": "recomanades"
+    },
+    {
+        "titol": "John Wick",
+        "any": "2014",
+        "genere": "Acció",
+        "poster": "img/johnwick.png",
+        "seccio": "recomanades"
+    },
+    {
+        "titol": "Rocky",
+        "any": "1976",
+        "genere": "Acció",
+        "poster": "img/rocky.webp",
+        "seccio": "recomanades"
+    },
+    {
+        "titol": "Capità América: El Primer Venjador",
+        "any": "2011",
+        "genere": "Superherois",
+        "poster": "img/capitanamerica1.png",
+        "seccio": "recomanades"
+    }
+]

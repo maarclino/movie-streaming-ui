@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveCinema - Jerry Maguire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-md">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand" href="index.html">LiveCinema</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNavbar">
+          <ul class="navbar-nav mx-auto gap-2 mt-2 mt-md-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inici</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Descàrregues</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">La meva llista</a></li>
+            <li class="nav-item"><a class="nav-link" href="taula.html">Catàleg</a></li>
+          </ul>
+          <div class="d-flex gap-3 align-items-center mt-2 mt-md-0">
+            <i class="bi bi-cast icona-nav"></i>
+            <i class="bi bi-search icona-nav"></i>
+            <i class="bi bi-person-circle icona-nav"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5 pt-3">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <img src="img/jerrymaguire.webp" class="img-detall" alt="Jerry Maguire">
+        </div>
+        <div class="col-12 col-md-8 text-white">
+          <h1>Jerry Maguire</h1>
+          <p class="text-secondary">1996 · 2h 18min · Drama</p>
+          <p class="detall-descripcio">
+            En Jerry Maguire és un agent esportiu d'èxit que, després d'una crisi de 
+            consciència, escriu un manifest sobre l'ètica en els negocis. Això li costa 
+            la feina, però amb un sol client i una col·lega lleial, intentarà reconstruir 
+            la seva carrera i trobar el que realment importa a la vida.
+          </p>
+          <div class="d-flex gap-3 mt-4">
+            <button class="btn btn-warning">
+              <i class="bi bi-play-fill"></i> Reproduir
+            </button>
+            <button class="btn btn-outline-light">
+              <i class="bi bi-plus-lg"></i> La meva llista
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-5 py-4 text-center">
+      <p class="footer-logo">LiveCinema</p>
+      <p class="footer-links">
+        <a href="#">Ajuda</a> · 
+        <a href="#">Privacitat</a> · 
+        <a href="#">Contacte</a>
+      </p>
+      <p class="footer-copy">© 2024 LiveCinema. Tots els drets reservats.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

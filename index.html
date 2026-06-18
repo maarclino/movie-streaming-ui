@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>LiveCinema</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container-fluid px-4">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">LiveCinema</a>
+                <!-- Botó hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Tot el menú i icones junts -->
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <!-- Menú centrat -->
+                    <ul class="navbar-nav mx-auto gap-2 mt-2 mt-md-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Inici</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Descàrregues</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">La meva llista</a></li>
+                        <li class="nav-item"><a class="nav-link" href="taula.html">Catàleg</a></li>
+                    </ul>
+                    <!-- Icones a la dreta -->
+                    <div class="d-flex gap-3 align-items-center mt-2 mt-md-0">
+                        <i class="bi bi-cast icona-nav"></i>
+                        <i class="bi bi-search icona-nav"></i>
+                        <i class="bi bi-person-circle icona-nav"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner -->
+        <div class="banner p-5 text-white">
+            <div class="container">
+                <h1>Spider-Man: No Way Home</h1>
+                <p>2024 · 2h 28min · Superherois</p>
+                <p>En Peter es troba en problemes d'una categoria superior a la que mai s'hi ha trobat
+                i haurà de comptar amb molta ajuda per poder salvar Nova-York.
+                </p>
+                <a href="reproductor.html?file=spidermannowayhome.mp4&title=Spider-Man: No Way Home&poster=img/spidermannowayhome.png" class="btn btn-warning">Reproduir</a>
+                <a href="detall.html" class="btn btn-outline-light">Més info</a> <!-- Enllaça al detall -->
+            </div>
+        </div>
+        <div class="container mt-4 seccio">
+            <!-- Títol de la secció -->
+            <h2 class="text-white mb-3">Continua veient</h2>
+            <div class="row g-3" id="continua-veient">
+                
+            </div>
+        </div>
+        <!-- Pel·lícules -->
+        <div class="container mt-4 seccio">
+            <!-- Títol de la secció -->
+            <h2 class="text-white mb-3">Recomanades per a tu</h2>
+            <!-- Fila de pel·lícules -->
+            <div class="row g-3" id="recomanades">
+               
+            </div>
+          </div>
+        <footer class="mt-5 py-4 text-center">
+            <p class="footer-logo">LiveCinema</p>
+            <p class="footer-links">
+                <a href="#">Ajuda</a> · 
+                <a href="#">Privacitat</a> · 
+                <a href="#">Contacte</a>
+            </p>
+            <p class="footer-copy">© 2024 LiveCinema. Tots els drets reservats.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script-llistat.js"></script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveCinema - Catàleg de Pel·lícules</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+    <!-- Estils propis -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-md">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand" href="index.html">LiveCinema</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNavbar">
+          <ul class="navbar-nav mx-auto gap-2 mt-2 mt-md-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inici</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Descàrregues</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">La meva llista</a></li>
+            <li class="nav-item"><a class="nav-link active" href="taula.html">Catàleg</a></li>
+          </ul>
+          <div class="d-flex gap-3 align-items-center mt-2 mt-md-0">
+            <i class="bi bi-cast icona-nav"></i>
+            <i class="bi bi-search icona-nav"></i>
+            <i class="bi bi-person-circle icona-nav"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contingut principal -->
+    <div class="container mt-5 pt-3">
+      <h2 class="text-white titol-taula">Catàleg complet de pel·lícules</h2>
+
+      <div class="table-responsive">
+        <table id="taulaPelis" class="table table-dark table-hover w-100">
+          <thead>
+            <tr>
+              <th>Pòster</th>
+              <th>Títol</th>
+              <th>Gènere</th>
+              <th>Any</th>
+              <th>Acció</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- JavaScript omplirà aquest tbody automàticament -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-5 py-4 text-center">
+      <p class="footer-logo">LiveCinema</p>
+      <p class="footer-links">
+        <a href="#">Ajuda</a> · 
+        <a href="#">Privacitat</a> · 
+        <a href="#">Contacte</a>
+      </p>
+      <p class="footer-copy">© 2024 LiveCinema. Tots els drets reservats.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery (OBLIGATORI abans de DataTables) -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!-- DataTables JS (DESPRÉS de jQuery) -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+    <!-- Script propi -->
+    <script src="script-taula.js"></script>
+
+  </body>
+</html>

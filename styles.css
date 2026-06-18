@@ -1,0 +1,260 @@
+body {
+    background-color: #0d0d0d;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Variables de color: canviant aquí, canvia a tot arreu */
+:root {
+    --color-taronja: #FF6B35;
+}
+  
+/* Sobreescrivim el botó groc de Bootstrap pel nostre taronja */
+.btn-warning {
+    background-color: var(--color-taronja);
+    border-color: var(--color-taronja);
+    color: white;
+}
+  
+.btn-warning:hover {
+    background-color: #d94f18;
+    border-color: #d94f18;
+    color: white;
+}
+  
+/* Barra de progrés taronja */
+.bg-warning {
+    background-color: var(--color-taronja) !important;
+}
+
+.navbar {
+    background-color: #0d0d0d;
+    border-bottom: 2px solid var(--color-taronja);
+}
+  
+.navbar-brand {
+    color: var(--color-taronja) !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.banner {
+  background-image: 
+    linear-gradient(to right, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.2) 100%),
+    url('img/spidermannowayhome.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  border-bottom: 3px solid var(--color-taronja);
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.icona-nav {
+    color: white;
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #0a0a0a;
+    border-top: 2px solid var(--color-taronja);
+}
+  
+.footer-logo {
+    color: var(--color-taronja);
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+  
+.footer-links a {
+    color: #9a9a9a;
+    text-decoration: none;
+}
+  
+.footer-links a:hover {
+    color: var(--color-taronja);
+}
+  
+.footer-copy {
+    color: #555;
+    font-size: 0.8rem;
+}
+
+.seccio {
+    margin-bottom: 40px;
+  }
+  
+.seccio h2 {
+    border-bottom: 2px solid var(--color-taronja);
+    padding-bottom: 8px;
+    display: inline-block;
+}
+  
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+  
+.banner p {
+    color: #cccccc;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.788) !important;
+    font-weight: 600;
+  }
+  
+.nav-link:hover {
+    color: var(--color-taronja) !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detall-descripcio {
+  color: #cccccc;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.img-detall {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#video-player {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+  background-color: black;
+}
+
+/* ===== DATATABLES - TEMA LIVECINEMA ===== */
+
+#taulaPelis_wrapper .dataTables_length label,
+#taulaPelis_wrapper .dataTables_filter label,
+#taulaPelis_wrapper .dataTables_info {
+  color: #cccccc;
+}
+
+#taulaPelis_wrapper .dataTables_filter input {
+  background-color: #1a1a1a;
+  border: 1px solid #FF6B35;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+#taulaPelis_wrapper .dataTables_filter input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 107, 53, 0.4);
+}
+
+#taulaPelis_wrapper .dataTables_length select {
+  background-color: #1a1a1a;
+  border: 1px solid #FF6B35;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+#taulaPelis_wrapper .dataTables_paginate .paginate_button {
+  color: #cccccc !important;
+  background: #1a1a1a;
+  border: 1px solid #333 !important;
+  border-radius: 4px;
+  margin: 0 2px;
+}
+
+#taulaPelis_wrapper .dataTables_paginate .paginate_button:hover {
+  background: #FF6B35 !important;
+  color: white !important;
+  border-color: #FF6B35 !important;
+}
+
+#taulaPelis_wrapper .dataTables_paginate .paginate_button.current {
+  background: #FF6B35 !important;
+  color: white !important;
+  border-color: #FF6B35 !important;
+}
+
+#taulaPelis_wrapper .dataTables_paginate .paginate_button.disabled {
+  color: #555 !important;
+}
+
+table.dataTable thead th {
+  background-color: #1a1a1a;
+  color: #FF6B35;
+  border-bottom: 2px solid #FF6B35 !important;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+}
+
+table.dataTable tbody tr {
+  background-color: #111111;
+  color: #cccccc;
+}
+
+table.dataTable tbody tr:hover {
+  background-color: #1e1e1e !important;
+}
+
+table.dataTable tbody td {
+  border-top: 1px solid #222;
+  vertical-align: middle;
+}
+
+table.dataTable thead th.sorting::after,
+table.dataTable thead th.sorting_asc::after,
+table.dataTable thead th.sorting_desc::after {
+  color: #FF6B35;
+}
+
+.poster-min {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.badge-genere {
+  background-color: rgba(255, 107, 53, 0.15);
+  color: #FF6B35;
+  border: 1px solid rgba(255, 107, 53, 0.4);
+  font-size: 0.8rem;
+  padding: 3px 8px;
+  border-radius: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.titol-taula {
+  border-bottom: 2px solid #FF6B35;
+  padding-bottom: 8px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
